@@ -1,0 +1,180 @@
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #F1F1F1;
+}
+
+nav{
+    display: inline-block;
+    height: 76px;
+}
+
+main{
+    margin: 0px 136px 0px 137px;
+}
+
+header{
+    z-index: 3;
+    position: sticky;
+    top: 0px;
+    background-color: #F1F1F1;
+}
+.navlist{
+    display: inline-block;
+}
+
+.headerLi{
+    display: inline-block;
+    margin-top: 21px;
+    margin-left: 35px;
+    font-weight: bold;
+}
+
+.headerLi:first-child{
+    margin-left: 137px;
+}
+
+.profilePicture{
+    display: inline-block;
+    margin-left: 29px;
+    vertical-align:middle;
+}
+
+.toph1{
+font-weight: bold;
+font-size: 24px;
+}
+
+.TopContent{
+    display: inline-block;
+    height: 357px;
+    width: 362px;
+    border-radius: 20px;
+    margin-top: 27px;
+    position: relative;
+}
+
+.secondDiv{
+    margin: 0px 40px 0px 40px;
+}
+
+.text{
+    height: 171px;
+    background-color:white;
+    border-radius: 0px 0px 5px 5px;
+    top: -2px;
+    
+}
+
+.textSpan{
+    display: inline-block;
+    font-size: 10px;
+    margin: 67px 84px 0px 40px;
+    color: #8A8787;
+    line-height: 18px;
+    font-weight: bold;
+}
+
+.beach{
+    border-radius: 5px 5px 0px 0px;
+    z-index: -3;
+}
+
+.clock{
+    margin-left: 40px;
+    margin-top: 12px;
+}
+
+.time{
+    font-weight: bold;
+    font-size: 10px;
+    color: #8A8787;
+    vertical-align: 5px;
+    margin-left: 2px;
+}
+
+
+.abs{
+    z-index: 2;
+    position: absolute;
+    left: 41px;
+    top: 32px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+.presentHeader{
+    margin-top: 57px;
+}
+
+.photosDiv{
+    margin-top: 30px;
+}
+
+.shrink{
+    width: 1175px;
+}
+
+
+.PhotoBlockDiv{
+    display: inline-block;
+}
+.PhotoBlockDiv img{
+    display: block;
+}
+
+.bigPhotobottom{
+    margin-bottom: 42px;
+}
+
+.rightBlockDiv{
+    vertical-align: top;
+    margin-left: 50px;
+}
+
+.PhotoBlockDiv img:not(.PhotoBlockDiv img:last-child){
+    margin-bottom: 103px;
+}
+
+.footer{
+   height: 201px; 
+   background-color: #243043;
+   margin-top: 36px;
+}
+
+.footerBlock{
+    display: inline-block;
+    margin-left: 75px;
+}
+
+.footerBlock span{
+    display: block;
+    margin-bottom: 14px;
+    font-size: 12px;
+    color: #818687;
+    
+}
+
+.wrapper{
+    padding-top: 59px;
+    padding-left: 137px;
+}
+
+.align{
+    position: relative;
+    top: -79px;
+    margin-left:33px;
+}
+
+.footerBlock:last-child{
+    position: relative;
+    top: -50px;
+    left: 400px;
+    margin-left: 0;
+}
+
+#comment{
+    color: white;
+    font-weight: normal;
+}
